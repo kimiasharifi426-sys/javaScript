@@ -124,7 +124,7 @@ var user = {
 };
 function fullName(user) {
   return user.firstname + " " + user.lastname;
-
+}
 
 function userjob() {
   var job = "";
