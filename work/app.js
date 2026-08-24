@@ -55,7 +55,7 @@ var students = [
   },
 ];
 
-function average(student) {
+function average(students) {
   var sum = 0;
 
   for (var i = 0; i < student.score.length; i++) {
@@ -89,3 +89,19 @@ var best = getBestStudent(students);
 
 console.log("Best Student: " + best.name);
 console.log("Average: " + average(best));
+
+switch (operator) {
+  case "+":
+    break;
+  case "-":
+    return num1 - num2;
+}
+
+function zarb() {
+  var zarb = {};
+  for (var i = 1; i >= 10; i++) {
+    for (var j = 1; j >= 10; j++) {
+      console.log(`${i}*${j}=${i * j}`);
+    }
+  }
+}
