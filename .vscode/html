@@ -1,0 +1,71 @@
+<html>
+    <style>
+.container{
+   height: 100vh;
+   width: 100vh;
+   display: grid;
+   grid-template-columns:repeat(4, 1fr) ;
+   grid-template-rows: repeat(3, 1fr);
+   row-gap: 7px;
+   column-gap: 7px;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box1{
+    background-color: rgb(0, 255, 195);
+    grid-area: 1/1/4/2;
+}
+
+.box2{
+    background-color: rgb(0, 255, 195);
+    grid-area: 1/2/2/4;
+}
+
+.box3{
+    background-color: azure;
+    grid-area:1/4/2/5;
+}
+
+.box4{
+    background-color: aquamarine;
+    grid-area: 2/2/3/3;
+}
+
+.box5{
+    background-color: azure;
+    grid-area2/3/3/4: ;
+}
+
+.box6{
+    background-color: aquamarine;
+    grid-area: 2/4/4/5;
+}
+
+.box7{
+    background-color: azure;
+    grid-area: 3/2/4/3;
+}
+
+.box8{
+    background-color: aquamarine;
+    grid-area: 3/3/4/4;
+}
+    </style>
+
+    <body>
+        <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+    </body>
+</html>
